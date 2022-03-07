@@ -1,0 +1,79 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+header {
+    background-color: white;
+    padding: 100px;
+    background-image:url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    background-image: url(paysage.jpg); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 110%;
+}
+
+.polereseau{
+     margin: auto
+     width: 600px;
+     padding: 50px; 
+     padding-top:10px; 
+     padding-bottom:10px;
+     border: 3px solid #333; 
+     text-align: center;
+     background: #333;
+     color: white;
+   }
+table {
+border: medium solid #6495ed;
+border-collapse: collapse;
+width: auto;
+margin: 5px;
+margin: auto
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: auto;
+padding: 5px;
+background-color: #D0E3FA;
+
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: auto;
+padding: 5px;
+text-align: center;
+background-color: black;
+}
+caption {
+font-family: sans-serif;
+}
